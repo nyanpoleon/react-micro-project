@@ -125,7 +125,7 @@ button {
   display: flex;
   flex-direction: column;
   text-align: left;
-
+  width: 50%;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -141,9 +141,20 @@ button {
   display: flex;
   flex-direction: column;
   text-align: right;
+  width: 50%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 40px;
+  margin-right: 190px;
+  color: #FFFFFF;
+
 }
 
 .svglogos {
   display: flex;
   flex-direction: row;
+  padding-left: 600px;
 }
