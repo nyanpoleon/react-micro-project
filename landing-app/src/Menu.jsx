@@ -2,7 +2,7 @@ import React from 'react';
 
 function Menu(props) {
     return (
-        <p>{props.item}</p>
+        <div>{props.item}</div>
     )
 }
 
