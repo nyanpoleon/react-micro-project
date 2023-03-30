@@ -19,7 +19,7 @@ function App() {
             <input type="text" placeholder="Your e-mail address"></input>
             <button>Register Now</button>
           </div>
-          <div>
+          <div className="tagline">
             Free - No Spam - No Data Sharing
           </div>
         </div>
