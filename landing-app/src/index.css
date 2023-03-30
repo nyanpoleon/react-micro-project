@@ -118,6 +118,9 @@ button {
 .man {
   width: 500px;
 }
+.footer {
+  display: flex;
+}
 .left_footer {
   display: flex;
   flex-direction: column;
@@ -138,4 +141,9 @@ button {
   display: flex;
   flex-direction: column;
   text-align: right;
+}
+
+.svglogos {
+  display: flex;
+  flex-direction: row;
 }
