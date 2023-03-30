@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "./Heading";
 import Menu from "./Menu";
+import Icons from "./Icons"
 import "./App.css";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           </div>
         </div>
         <div className="right_header">
-          <img src={require("./dweep.png")}></img>
+          <img className="man" src={require("./assets/dweep.png")}></img>
         </div>
       </div>
       <div className="footer">
@@ -36,8 +37,10 @@ function App() {
           
         </div>
         <div className="right_footer">
-          Dweep.io
-          Made with love in India
+          <div>Dweep.io</div>
+          <div>Made with love in India</div>
+          
+          <Icons images={require("./assets/linkedin.svg")}/>
         </div>
       </div>
     </div>
