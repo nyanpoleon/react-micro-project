@@ -122,6 +122,17 @@ button {
   display: flex;
   flex-direction: column;
   text-align: left;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  margin-top: 40px;
+  margin-left: 190px;
+
+  color: #FFFFFF;
+  
 }
 .right_footer {
   display: flex;
