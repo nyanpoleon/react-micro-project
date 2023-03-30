@@ -15,8 +15,8 @@ function App() {
             decription="Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring one every day to your inbox"
             headingSmall="Show me how it looks"
           />
-          <div>
-            <input type="text"></input>
+          <div className="inputArea">
+            <input type="text" placeholder="Your e-mail address"></input>
             <button>Register Now</button>
           </div>
           <div>
